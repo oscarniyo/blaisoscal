@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Signup Form</title>
+    <style>
+        .signup-container {
+            max-width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #f9f9f9;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .signup-form {
+            display: flex;
+            flex-direction: column;
+        }
+        .signup-form h2 {
+            margin-top: 0;
+            color: #333;
+        }
+        .signup-form input[type="email"] {
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            font-size: 16px;
+        }
+        .signup-form button {
+            padding: 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+        .signup-form button:hover {
+            background-color: #45a049;
+        }
+        .signup-form .privacy-note {
+            margin-top: 10px;
+            font-size: 12px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <div class="signup-container">
+        <form class="signup-form" action="MY PROJECT.HTML" method="POST">
+            <h2>Signup to view our website for exchange Rate</h2>
+            <input type="email" name="email" placeholder="Enter your email" required>
+            <button type="submit">Signup</button>
+            <p class="privacy-note">We respect your privacy. signup at any time.</p>
+        </form>
+    </div>
+</body>
+</html>
